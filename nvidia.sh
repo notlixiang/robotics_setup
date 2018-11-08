@@ -52,7 +52,7 @@ sudo apt-get install -y nvidia-384 mesa-common-dev freeglut3-dev
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
-sh cuda.sh
+sh cuda_9.0_cudnn_7.0.sh
 
 # stop the window manager
 # you probably want to run this in ctrl + alt + f1 mode
